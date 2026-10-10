@@ -4,8 +4,8 @@ import pytest
 from hypothesis import given
 from hypothesis.strategies import lists
 
-from minitorch import MathTest
 import minitorch
+from minitorch import MathTest
 from minitorch.operators import (
     add,
     addLists,
